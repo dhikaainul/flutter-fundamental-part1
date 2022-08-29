@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hello_world/basic_widgets/loading_cupertino.dart';
+import 'package:hello_world/basic_widgets/datetimepicker.dart';
+import 'package:hello_world/basic_widgets/dialog_widget.dart';
+import 'package:hello_world/basic_widgets/inputselection_widget.dart';
+import 'package:hello_world/basic_widgets/scaffold_widget.dart';
 
 void main() {
   runApp(MyApp());
@@ -23,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyCuppertinoWidget(),
+      home: MyDateTime(),
     );
   }
 }
